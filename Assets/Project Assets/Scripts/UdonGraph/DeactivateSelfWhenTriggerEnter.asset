@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f11136daadff0b44ac2278a314682ab, type: 3}
   m_Name: DeactivateSelfWhenTriggerEnter
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: c23f939e21748b244af3d5763ea1f7ca,
+  serializedUdonProgramAsset: {fileID: 11400000, guid: af0b592bb798e5a4e889273022032d9c,
     type: 2}
   udonAssembly: ".data_start\r\n\r\n    \r\n    __instance_0: %UnityEngineGameObject,
     this\r\n    __value_0: %SystemBoolean, null\r\n    self: %UnityEngineGameObject,

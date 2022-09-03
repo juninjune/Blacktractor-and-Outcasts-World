@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f11136daadff0b44ac2278a314682ab, type: 3}
   m_Name: ChangeIntWhenPlayerTriggerEnter
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: ba7d4d683759d5142a906549f5adee9a,
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 57cbba1901db2f249aa1de856f1c06ed,
     type: 2}
   udonAssembly: ".data_start\r\n\r\n    .export target\r\n    .export variable\r\n   
     .export newValue\r\n    \r\n    __instance_0: %VRCUdonUdonBehaviour, this\r\n   

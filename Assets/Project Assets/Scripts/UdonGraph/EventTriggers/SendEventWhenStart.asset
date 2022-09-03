@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f11136daadff0b44ac2278a314682ab, type: 3}
   m_Name: SendEventWhenStart
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: 389521ce5529e404380733d4aaea234a,
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 7b38946ea8fa8554e82aad90d1cbf611,
     type: 2}
   udonAssembly: ".data_start\r\n\r\n    .export target\r\n    .export event\r\n   
     .export delay\r\n    \r\n    __instance_0: %VRCUdonUdonBehaviour, this\r\n   
