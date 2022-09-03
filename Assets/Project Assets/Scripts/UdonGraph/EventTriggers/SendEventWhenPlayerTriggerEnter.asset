@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f11136daadff0b44ac2278a314682ab, type: 3}
   m_Name: SendEventWhenPlayerTriggerEnter
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: 28bbb702eaeb0ae4e8b93da590cbd3ce,
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 9113f91324992e84d8e16cd77210ce02,
     type: 2}
   udonAssembly: ".data_start\r\n\r\n    .export target\r\n    .export event\r\n   
     .export delay\r\n    \r\n    __instance_0: %VRCUdonUdonBehaviour, this\r\n   
