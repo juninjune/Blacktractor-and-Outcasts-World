@@ -19,8 +19,8 @@ MonoBehaviour:
     %SystemBoolean, null\r\n    __String_0: %SystemString, null\r\n    __instance_1:
     %UnityEngineAnimator, null\r\n    __name_1: %SystemString, null\r\n    __value_1:
     %SystemBoolean, null\r\n    __String_1: %SystemString, null\r\n    uiAnimator:
-    %UnityEngineAnimator, null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n    .export
-    FadeIn\r\n    \r\n    FadeIn:\r\n    \r\n        PUSH, uiAnimator\r\n       
+    %UnityEngineAnimator, null\r\n    localPlayer: %VRCSDKBaseVRCPlayerApi, null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n   
+    .export FadeIn\r\n    \r\n    FadeIn:\r\n    \r\n        PUSH, uiAnimator\r\n       
     PUSH, __instance_0\r\n        COPY\r\n        PUSH, __String_0\r\n        PUSH,
     __name_0\r\n        COPY\r\n        PUSH, __instance_0\r\n        PUSH, __name_0\r\n       
     PUSH, __value_0\r\n        EXTERN, \"UnityEngineAnimator.__SetBool__SystemString_SystemBoolean__SystemVoid\"\r\n       
@@ -59,7 +59,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Get_Variable
       uid: 30ab2b6f-3add-4084-8ab2-84e0aaf0f6f5
-      position: {x: 483, y: 258}
+      position: {x: 579.5565, y: 812.1572}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -70,7 +70,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: UnityEngineAnimator.__SetBool__SystemString_SystemBoolean__SystemVoid
       uid: f73db3b4-4d9f-4110-83f6-559af960e882
-      position: {x: 781.25494, y: 135.75299}
+      position: {x: 879.55634, y: 695.1572}
       nodeUIDs:
       - 30ab2b6f-3add-4084-8ab2-84e0aaf0f6f5|0
       - aec8b956-e643-4953-a9da-2751362a732f|0
@@ -86,7 +86,7 @@ MonoBehaviour:
           PublicKeyToken=b77a5c561934e089|True
     - fullName: Const_SystemString
       uid: aec8b956-e643-4953-a9da-2751362a732f
-      position: {x: 448, y: 354}
+      position: {x: 546.55646, y: 913.1572}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -95,7 +95,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|fadein
     - fullName: Event_Custom
       uid: 8949754c-b07a-4f3f-a759-24f06255507e
-      position: {x: 466, y: 155}
+      position: {x: 564.5565, y: 714.1572}
       nodeUIDs:
       - 
       flowUIDs:
@@ -105,7 +105,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|FadeIn
     - fullName: UnityEngineAnimator.__SetBool__SystemString_SystemBoolean__SystemVoid
       uid: de94e79f-a3ab-4d52-8178-4d6c24fffc9b
-      position: {x: 784.00397, y: 494.50195}
+      position: {x: 882.55646, y: 1054.1572}
       nodeUIDs:
       - e14fcfef-0cba-4d67-9755-e895be3f4eff
       - 1a551313-9b6b-4e9e-8576-07ece53f7d2f
@@ -121,7 +121,7 @@ MonoBehaviour:
           PublicKeyToken=b77a5c561934e089|False
     - fullName: Event_Custom
       uid: 2f813141-f088-4c8a-88d6-6dbba84e8fab
-      position: {x: 467, y: 512}
+      position: {x: 565.5563, y: 1071.1572}
       nodeUIDs:
       - 
       flowUIDs:
@@ -131,7 +131,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|FadeOut
     - fullName: Const_SystemString
       uid: 1a551313-9b6b-4e9e-8576-07ece53f7d2f
-      position: {x: 449, y: 711}
+      position: {x: 547.55646, y: 1270.1571}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -140,7 +140,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|fadein
     - fullName: Get_Variable
       uid: e14fcfef-0cba-4d67-9755-e895be3f4eff
-      position: {x: 478.75296, y: 615}
+      position: {x: 577.5564, y: 1174.1573}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -149,10 +149,33 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|5e33d8e4-df6b-4a68-9e74-db46b9008f59
       - unityObjectValue: {fileID: 0}
         stringValue: 
+    - fullName: Variable_VRCSDKBaseVRCPlayerApi
+      uid: 7248cdbc-2aae-4d26-a846-aa3ef8a1018c
+      position: {x: -362.22504, y: 9.075623}
+      nodeUIDs:
+      - 
+      - 
+      - 
+      - 
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|localPlayer
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     updateOrder: 0
   graphElementData: []
   viewTransform:
-    position: {x: 259, y: 33}
+    position: {x: 180, y: -381}
     scale: 0.65751624
   version: 1.0.0
   showAssembly: 0
