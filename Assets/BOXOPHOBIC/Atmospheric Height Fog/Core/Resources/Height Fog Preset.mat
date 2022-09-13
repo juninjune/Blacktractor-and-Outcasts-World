@@ -20,7 +20,9 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
+    - _Banner: 1
     - _DIRECTIONALL: 1
+    - _DirectionalCat: 1
     - _DirectionalCustom: 0
     - _DirectionalFalloff: 2
     - _DirectionalIntensity: 1
@@ -28,6 +30,7 @@ Material:
     - _DirectionalModeBlend: 0
     - _FOGG: 1
     - _FogAxisMode: 1
+    - _FogCat: 1
     - _FogColorDuo: 0
     - _FogDistanceEnd: 100
     - _FogDistanceFalloff: 1
@@ -41,21 +44,25 @@ Material:
     - _IsHeightFogShader: 1
     - _IsStandardPipeline: 0
     - _NOISEE: 1
+    - _NoiseCat: 1
     - _NoiseDistanceEnd: 50
     - _NoiseIntensity: 1
     - _NoiseMode: 0
     - _NoiseModeBlend: 0
     - _NoiseScale: 30
     - _SKYBOXX: 1
+    - _SkyboxCat: 1
+    - _SkyboxFogBottom: 0
     - _SkyboxFogFalloff: 1
     - _SkyboxFogFill: 1
     - _SkyboxFogHeight: 1
     - _SkyboxFogIntensity: 1
+    - _SkyboxFogOffset: 0
     - _TITLE: 1
     m_Colors:
     - _DirectionalColor: {r: 1, g: 0.7793103, b: 0.5, a: 1}
     - _DirectionalCustomDir: {r: 0, g: 0, b: 0, a: 0}
-    - _DirectionalDir: {r: 0.7081007, g: 0.28231323, b: 0.6472192, a: 0}
+    - _DirectionalDir: {r: 0.3213938, g: 0.76604444, b: -0.5566705, a: 0}
     - _FogAxisOption: {r: 0, g: 1, b: 0, a: 0}
     - _FogColorEnd: {r: 0.8862745, g: 1.443137, b: 2, a: 1}
     - _FogColorStart: {r: 1, g: 0, b: 0.5, a: 1}
